@@ -1,6 +1,6 @@
 # dev-ip [![Build Status](https://secure.travis-ci.org/shakyshane/dev-ip.png?branch=master)](http://travis-ci.org/shakyshane/dev-ip)
 
-The best project ever.
+Find a suitable IP host to view local websites on.
 
 ## Command line
 Install it globally to use on the command line:
