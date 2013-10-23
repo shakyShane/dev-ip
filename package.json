@@ -1,7 +1,7 @@
 {
   "name": "dev-ip",
   "description": "The best project ever.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/shakyshane/dev-ip",
   "author": {
     "name": "Shane Osbourne",
@@ -37,7 +37,6 @@
     "grunt-jasmine-node": "~0.1.0"
   },
   "keywords": [],
-  "preferGlobal": "true",
   "bin": {
     "dev-ip": "lib/dev-ip.js"
   }
