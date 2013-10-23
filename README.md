@@ -1,4 +1,4 @@
-# dev-ip [![Build Status](https://secure.travis-ci.org/shakyshane/dev-ip.png?branch=master)](http://travis-ci.org/shakyshane/dev-ip)
+# dev-ip [![Build Status](https://travis-ci.org/shakyShane/dev-ip.png?branch=master)](https://travis-ci.org/shakyShane/dev-ip)
 
 Find a suitable IP host to view local websites on.
 
