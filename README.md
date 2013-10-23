@@ -2,19 +2,24 @@
 
 The best project ever.
 
-## Getting Started
-Install the module with: `npm install dev-ip`
+## Command line
+Install it globally to use on the command line:
+
+`sudo npm install -g dev-ip`
+
+then run:
+
+`dev-ip`
+
+> "try this: http://192.168.1.46"
+
+## In your project
+`npm install dev-ip`
 
 ```javascript
 var dev_ip = require('dev-ip');
-dev_ip.awesome(); // "awesome"
+dev_ip.getIp(); // "192.168.1.76" or false if nothing found (ie, offline user)
 ```
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
@@ -23,5 +28,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Shane Osbourne  
+Copyright (c) 2013 Shane Osbourne
 Licensed under the MIT license.
