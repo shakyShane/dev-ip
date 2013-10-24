@@ -1,7 +1,7 @@
 {
   "name": "dev-ip",
-  "description": "The best project ever.",
-  "version": "0.1.5",
+  "description": "Find a suitable IP host to view local websites on.",
+  "version": "0.1.6",
   "homepage": "https://github.com/shakyshane/dev-ip",
   "author": {
     "name": "Shane Osbourne",
