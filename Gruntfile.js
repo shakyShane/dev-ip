@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     watch: {
       test: {
         files: ['lib/*.js', 'test/*.js'],
-        tasks: ['jshint:test', 'jasmine_node']
+        tasks: ['jshint', 'jasmine_node']
       }
     }
   });
