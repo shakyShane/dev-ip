@@ -25,7 +25,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt jasmine_node"
+    "test": "grunt"
   },
   "dependencies": {
     "lodash": "~2.2.1"
