@@ -11,7 +11,7 @@ then run:
 
 `dev-ip`
 
-> "try this: http://192.168.1.46"
+>  "http://192.168.1.46"
 
 ## In your project
 `npm install dev-ip`

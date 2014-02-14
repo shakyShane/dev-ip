@@ -1,43 +1,44 @@
 {
-  "name": "dev-ip",
-  "description": "Find a suitable IP host to view local websites on.",
-  "version": "0.1.6",
-  "homepage": "https://github.com/shakyshane/dev-ip",
-  "author": {
-    "name": "Shane Osbourne",
-    "email": "shane.osbourne8@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/shakyshane/dev-ip.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shakyshane/dev-ip/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/shakyshane/dev-ip/blob/master/LICENSE-MIT"
+    "name": "dev-ip",
+    "description": "Find a suitable IP host to view local websites on.",
+    "version": "0.1.7",
+    "homepage": "https://github.com/shakyshane/dev-ip",
+    "author": {
+        "name": "Shane Osbourne",
+        "email": "shane.osbourne8@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/shakyshane/dev-ip.git"
+    },
+    "bugs": {
+        "url": "https://github.com/shakyshane/dev-ip/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/shakyshane/dev-ip/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "lib/dev-ip",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "dependencies": {
+        "lodash": "~2.2.1"
+    },
+    "devDependencies": {
+        "gulp": "~3.5.2",
+        "gulp-mocha": "~0.4.1",
+        "gulp-jshint": "~1.4.0",
+        "chai": "~1.9.0",
+        "sinon": "~1.8.2"
+    },
+    "keywords": [],
+    "bin": {
+        "dev-ip": "lib/dev-ip.js"
     }
-  ],
-  "main": "lib/dev-ip",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt"
-  },
-  "dependencies": {
-    "lodash": "~2.2.1"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.1",
-    "grunt-jasmine-node": "~0.1.0"
-  },
-  "keywords": [],
-  "bin": {
-    "dev-ip": "lib/dev-ip.js"
-  }
 }
