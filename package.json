@@ -25,13 +25,13 @@
         "node": ">= 0.8.0"
     },
     "scripts": {
-        "test": "grunt"
+        "test": "gulp"
     },
     "dependencies": {
         "lodash": "~2.2.1"
     },
     "devDependencies": {
-        "gulp": "~3.5.2",
+        "gulp": "~3.4.0",
         "gulp-mocha": "~0.4.1",
         "gulp-jshint": "~1.4.0",
         "chai": "~1.9.0",
