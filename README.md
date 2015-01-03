@@ -17,8 +17,8 @@ then run:
 `npm install dev-ip`
 
 ```javascript
-var dev_ip = require('dev-ip');
-dev_ip.getIp(); // "192.168.1.76" or false if nothing found (ie, offline user)
+var devip = require('dev-ip');
+devip(); // "192.168.1.76" or false if nothing found (ie, offline user)
 ```
 
 ## Contributing

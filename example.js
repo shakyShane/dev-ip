@@ -1,7 +1,4 @@
 var devip = require("./lib/dev-ip");
 
-var ip = devip.getIp(null);
-console.log(ip);
-
-var ipCli = devip.getIp("cli");
+var ip = devip();
 console.log(ip);

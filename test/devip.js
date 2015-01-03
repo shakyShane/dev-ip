@@ -21,14 +21,14 @@ describe("Getting the IP with a single result", function () {
         osStub = sinon.stub(os, "networkInterfaces").returns(respSingle);
     });
     beforeEach(function () {
-        result = devIp.getIp(null);
+        result = devIp(null);
     });
     after(function () {
         osStub.restore();
     });
     it("should return the IP when a single match found", function () {
         var expected = match1;
-        assert.equal(result, expected);
+        assert.deepEqual(result, [expected]);
     });
     it("should return a string matching the regex", function () {
         var actual = regex.exec(result);
@@ -43,7 +43,7 @@ describe("Getting the IP with Multiple results", function () {
         osStub = sinon.stub(os, "networkInterfaces").returns(respMultiple);
     });
     beforeEach(function () {
-        result = devIp.getIp(null);
+        result = devIp(null);
     });
     after(function () {
         osStub.restore();
@@ -69,13 +69,9 @@ describe("Getting the IP with no results", function () {
     after(function () {
         osStub.restore();
     });
-    it("should return false", function () {
-        var actual = devIp.getIp(null);
-        assert.isFalse(actual);
-    });
-    it("should return an error message if used on command line", function () {
-        var actual = devIp.getIp("cli");
-        var expected = "Couldn't find a suitable IP for you to use. (You're probably offline!)";
-        assert.equal(actual, expected);
+    it("should return empty array", function () {
+        var actual = devIp();
+        assert.isArray(actual);
+        assert.equal(actual.length, 0);
     });
 });
