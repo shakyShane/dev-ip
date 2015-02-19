@@ -18,7 +18,7 @@ then run:
 
 ```javascript
 var devip = require('dev-ip');
-devip(); // "192.168.1.76" or false if nothing found (ie, offline user)
+devip(); // [ "192.168.1.76", "192.168.1.80" ] or false if nothing found (ie, offline user)
 ```
 
 ## Contributing
