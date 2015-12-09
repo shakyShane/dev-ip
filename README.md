@@ -3,9 +3,9 @@
 Find a suitable IP host to view local websites on.
 
 ## Command line
-Install it globally to use on the command line:
+Install it globally to use on the command line (use `sudo` only if necessary):
 
-`sudo npm install -g dev-ip`
+`npm install -g dev-ip`
 
 then run:
 
