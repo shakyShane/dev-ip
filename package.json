@@ -24,6 +24,7 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "files": ["lib/dev-ip.js"],
   "scripts": {
     "lint": "jshint lib/*.js test/*.js",
     "unit": "mocha",
